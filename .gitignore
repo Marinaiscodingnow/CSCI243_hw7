@@ -1,0 +1,60 @@
+#########################################################
+# list taken from github and modified for csci243 use
+# Wed Nov  8 16:34:41 EST 2017
+#########################################################
+dissectPackets
+revisions.txt
+Makefile
+try-stuff/time.*
+try-stuff/terr.*
+# keep .png and other graphics in case they get lost or
+# cannot be replaced/remade easily.
+# *.png
+# *.jpg
+###################
+# doxygen generated files
+Source/doc/*
+###################
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.a
+*.pyc
+*.s
+*.i
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.aux
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.Trash
+Thumbs.db
+
