@@ -1,0 +1,23 @@
+commit 0ae393199fd9cf5e3192a1f7a1511b17236a09ef
+Author: mmk9233 <marinakania4@gmail.com>
+Date:   Fri Apr 10 18:11:59 2026 -0400
+
+    Added missing newlines
+
+commit 39ebe940f9520b58df62d6dfb8b5229bdc826d59
+Author: mmk9233 <marinakania4@gmail.com>
+Date:   Fri Apr 10 18:03:37 2026 -0400
+
+    Finished the c file along with debugging. Ready for testing.
+
+commit 999a4146d65b0be0a06d6aa2e3033dfe1b206d0b
+Author: mmk9233 <marinakania4@gmail.com>
+Date:   Thu Apr 9 20:37:54 2026 -0400
+
+    Completed main function and begun the layout for the actual decoding process of printing the header
+
+commit d508768960a89e0d034de7d285cc9aa6c4c12c47
+Author: mmk9233 <marinakania4@gmail.com>
+Date:   Mon Apr 6 20:22:49 2026 -0400
+
+    Baseline commit with an accidental start on the main program
