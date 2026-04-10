@@ -95,14 +95,14 @@ int main(int argc, char *argv[]){
         return EXIT_FAILURE;
     }
     //Print header
-    printf("File %s contains %d Packets", argv[1], packet_count);
+    printf("==== File %s contains %d Packets\n", argv[1], packet_count);
 
     unsigned char buf[MAX_PACKET_SIZE];
     int exit_status = EXIT_SUCCESS;
 
     //Iterate through the packets
     for(int i =0; i < packet_count; i++){
-        printf("==>Packet %d", i+1);
+        printf("==>Packet %d\n", i+1);
         
         int packet_length = 0;
         if(fread(&packet_length, sizeof(int), 1, fp) != 1){
